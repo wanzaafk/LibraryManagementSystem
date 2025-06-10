@@ -16,7 +16,7 @@ The schema enforces data integrity using primary keys, foreign keys, and appropr
 
 - `lm.sql` — The SQL script that creates the full relational database schema.
 - `README.md` — This project description.
-- ERD diagram — (attached as an image or linked below).
+- ERD diagram — EER diagram.png
 
 ## ERD
 
