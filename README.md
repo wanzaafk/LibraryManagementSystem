@@ -1,26 +1,33 @@
 # Library Management System Database
 
-## Description
+## Project Description
 
-This project implements a relational database schema for a Library Management System using MySQL. It models books, authors, members, loans, and their relationships, enforcing data integrity through primary keys, foreign keys, and constraints.
+This project is part of my Database Design and Normalization assignment. The goal is to design and implement a relational database for a Library Management System using MySQL, applying the principles of good database design and normalization (1NF, 2NF, 3NF).
 
-## How to Set Up
+The database models key entities of a typical library, including:
+- **Books**
+- **Authors**
+- **Members**
+- **Loans**
 
-1. Install MySQL or use any MySQL-compatible database environment.
-2. Import the `library_management.sql` file:
-   - Using MySQL CLI:  
-     ```bash
-     mysql -u your_username -p your_database_name < library_management.sql
-     ```
-   - Or use MySQL Workbench / phpMyAdmin to run the SQL script.
-3. The script creates all tables with constraints ready for use.
+The schema enforces data integrity using primary keys, foreign keys, and appropriate constraints, ensuring proper relationships between entities.
 
-## ERD Diagram
+## Contents of this Repository
 
-![Library Management System ERD](link-to-your-erd-image-or-screenshot.png)
+- `lm.sql` — The SQL script that creates the full relational database schema.
+- `README.md` — This project description.
+- ERD diagram — (attached as an image or linked below).
 
-(Include your ERD image in the repo or link here)
+## ERD
+
+(Include your ERD here if required by the assignment, or write: *"ERD diagram available on request / as part of the submission."*)
 
 ---
 
-Feel free to explore and extend the database with sample data and queries!
+This project demonstrates understanding of:
+- Entity-Relationship Modeling
+- Data Normalization (1NF, 2NF, 3NF)
+- Relational Integrity Constraints
+
+---
+
