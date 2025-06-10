@@ -28,7 +28,8 @@ CREATE TABLE Members (
     FirstName VARCHAR(50) NOT NULL,
     LastName VARCHAR(50) NOT NULL,
     Email VARCHAR(100) UNIQUE NOT NULL,
-    DateJoined DATE NOT NULL DEFAULT CURRENT_DATE
+    DateJoined DATE NOT NULL DEFAULT CURRENT_TIMESTAMP
+
 );
 
 -- Loans Table (which member borrowed which book)
